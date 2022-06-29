@@ -1,0 +1,655 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-image: url(img/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: 123% -10%;
+    background-size: 55%;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0%;
+}
+/*animaciones*/
+button.fondoNaranja:hover{
+    animation: color 3s infinite;
+    cursor: pointer;
+}
+@keyframes color{
+    50%{
+        color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(243, 96, 59, 0.7);
+    }
+}
+button.fondoBlanco:hover{
+    animation: blanco 3s infinite;
+    cursor: pointer;
+}
+@keyframes blanco{
+    50%{
+        color: rgba(243, 96, 59, 0.6);
+    }
+}
+button.naranjin:hover{
+    animation: naranjin 3s infinite;
+    cursor: pointer;
+}
+@keyframes naranjin{
+    50%{
+        color: rgba(255, 255, 255, 0.8);
+        background-color: rgb(237, 147, 124);
+    }
+}
+/*-----------*/
+/*Header*/
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 93%;
+}
+ul.menuHeader{
+    display: flex;
+    flex-direction: row;
+    padding: 0rem;
+}
+li.partesMenu{
+    margin: 1rem;
+}
+a.partesMenu1{
+    text-decoration: none;
+    color: #242E52;
+    font-weight: 500;
+}
+a.partesMenu1:hover{
+    color: rgba(36, 46, 82, 0.5);
+}
+button.fondoNaranja{
+    background-color: #F3603B;
+    border: none;
+    color: white;
+    box-shadow: 0rem .25rem .5rem rgba(242, 97, 59, 0.5);
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 3.125rem;
+    font-weight: 500;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+img.menu{
+    display: none;
+}
+/*--------------*/
+/*Main*/
+main{
+    background-image: url(img/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    background-position: -70% 94%;
+    background-size: 55%;
+    width: 100%;
+}
+main p{
+    color: #B3B2B7;
+    font-weight: 500;
+}
+h1{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #232C50;
+}
+section.padre1,section.padre2,section.padre3{
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+/*Primer seccion*/
+section.padre1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+section.padre1 div{
+    width: 32.8125rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 8%;
+}
+section.padre1 div p{
+    width: 22rem;
+    margin-top: 0rem
+}
+section.padre1 div button{
+    margin-top: 1rem;
+}
+section.padre1 img{
+    margin-right: 8%;
+}
+/*--------------*/
+/*Segundo seccion*/
+section.padre2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+div.mismoAncho{
+    margin-left: 8%;
+}
+div.mismoAncho h2{
+    font-size: 2rem;
+    margin-top: 1.9rem;
+    margin-bottom: 1.5rem;
+    color: #232C50;
+    width: 30rem;
+    font-weight: 700;
+}
+div.mismoAncho p{
+    width: 22rem;
+}
+div.mismoAncho, div.mismoAncho1{
+    width: 32.8125rem;
+    height: 36.25rem;
+}
+div.mismoAncho1Telefono{
+    display: none;
+}
+div.mismoAncho1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 8%;
+    flex-wrap: wrap;
+}
+div.mismoAncho1 section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+h3{
+    margin-top: 1.4rem;
+    color: #232C50;
+    font-weight: 700;
+}
+p.num{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.625rem 1.5625rem;
+    color: #FFFFFF;
+    width: 1rem;
+    height: 1rem;
+    background: #F3603B;
+    border-radius: 1.875rem;
+    font-weight: 700;
+}
+div.espacio{
+    margin-left: 2rem;
+}
+/*--------------*/
+/*Tercera seccion*/
+section.padre3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.padre3 h2{
+    margin-bottom: 6rem;
+    font-size: 2rem;
+    color: #232C50;
+    font-weight: 700;
+}
+div.cajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+div.cajas article{
+    width: 27.8125rem;
+    height: 14rem;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #FAFAFA;
+}
+div.cajas article img{
+    position: absolute;
+    width: 4rem;
+    top: -2rem;
+    left: 42.5%;
+}
+p.nombre{
+    margin-bottom: 0rem;
+    color: #242E53;
+    font-weight: 700;
+}
+p.textoChico{
+    margin-bottom: 2rem;
+    width: 22.8125rem;
+    text-align: center;
+    font-weight: 600;
+}
+section.padre3 ul{
+    display: none;
+}
+section.padre3 button{
+    margin-top: 2rem;
+}
+/*--------------*/
+/*--------------*//*Ternima el main*/
+/*Footer*/
+footer{
+    margin-top: 10rem;
+    width: 100%;
+}
+/*Fondo naranja del footer*/
+div.fondoOrenge{
+    background-image: url(img/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -1600% 100%;
+    background-position-x: 25000%;
+    background-color: #F3613C;
+    height: 14rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+div.fondoOrenge h2{
+    font-size: 3rem;
+    color: #FFFFFF;
+    width: 32rem;
+    margin-left: 8%;
+    font-weight: 700;
+}
+button.fondoBlanco{
+    background-color: #FFFFFF;
+    border: none;
+    color: #F3603B;
+    box-shadow: 0rem .25rem .5rem rgba(0, 0, 0, 0.25);
+    width: 8rem;
+    height: 2.5rem;
+    margin-right: 11%;
+    border-radius: 3.125rem;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+}
+
+/*--------------*/
+/*Fondo negro del footer*/
+div.fondoBlack{
+    background-color: #1E1E26;
+    height: 15.4375rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+div.fondoBlackTelefono{
+    display: none;
+}
+div.fondoBlack a:hover{
+    color: rgba(210, 89, 23, 0.7);
+}
+/*Primera caja*/
+div.hijo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+div.hijo img{
+    margin-top: 2rem;
+}
+div.hijo ul{
+    display: flex;
+    flex-direction: row;
+}
+div.hijo ul li{
+    font-size: 1.3rem;
+    margin: .5rem;
+}
+div.hijo ul li a{
+    color: #FFFFFF;
+}
+div.hijo a:hover{
+    color: rgb(210, 89, 23);
+}
+/*--------------*/
+/*Segunda caja*/
+div.hijo1 ul li{
+    line-height: 2.1rem;
+}
+div.hijo1 ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    color: rgba(255, 255, 255, .7);
+
+}
+/*--------------*/
+/*Tercera caja*/
+div.hijo2{
+    height: 100%;
+}
+div.hijo2 ul{
+    margin-top: 3.3rem;
+}
+div.hijo2 ul li{
+    line-height: 2.1rem;
+}
+div.hijo2 ul li a{
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(255, 255, 255, .7);
+}
+
+/*--------------*/
+/*Cuarta caja*/
+div.hijo3{
+    height: 100%;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 3.5rem;
+}
+form input{
+    font-size: 0.8125rem;
+    width: 12.5625rem;
+    height: 2.75rem;
+    border-radius: 3.125rem;
+    border-color: #a6432b;
+}
+input::placeholder{
+    padding-left: 1rem;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form div span{
+    font-size: .6rem;
+    color: #a6432b;
+    margin-left: 1rem;
+}
+button.naranjin{
+    margin-top: .2rem;
+    margin-left: 1rem;
+    width: 3.9375rem;
+    height: 2.625rem;
+    border-radius: 3.125rem;
+    background-color: #F3603B;
+    border: none;
+    color: #FFFFFF;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+}
+div.hijo3 p{
+    color: #8C8C94;
+    margin-top: 3.5rem;
+    text-align: end;
+    font-weight: 500;
+    font-size: .8rem;
+}
+/*--------------*/
+/*--------------*//*Fondo negro del footer*/
+/*--------------*//*Termina el footer*/
+@media (max-width:554px){
+    body{
+        background-position: 3rem -10rem;
+        background-size: 135%;
+    }
+    /*Header*/
+    header{
+        height: 4rem;
+        justify-content: space-between;
+    }
+    ul.menuHeader{
+        display: none;
+    }
+    header button{
+        display: none;
+    }
+    img.menu{
+        display: inline;
+        margin-right: 1rem;
+    }
+    img.logo{
+        margin-left: 1rem;
+        width: 6rem;
+    }
+    /*--------------*/
+    /*Main*/
+    main{
+        background-position: 14rem 25rem;
+        background-size: 87%;
+    }
+    /*Primer seccion*/
+    section.padre1{
+        margin-top: 2rem;
+    }
+    section.padre1 img{
+        order: -1;
+        width: 100%;
+        margin-right: 0rem;
+    }
+    h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    section.padre1 div{
+        align-items: center;
+        margin-left: 0rem;
+    }
+    section.padre1 div p{
+        font-size: .9rem;
+        width: 19rem;
+        text-align: center;
+    }
+    /*--------------*/
+    /*Segunda seccion*/
+    div.mismoAncho{
+        height: auto;
+        margin-left: 0rem;
+        width: 19rem;
+    }
+    div.mismoAncho h2{
+        text-align: center;
+        font-size: 1.7rem;
+        width:17rem;
+        margin-left: 1rem;
+    }
+    div.mismoAncho p{
+        text-align: center;
+        width:auto;
+        font-size: .9rem;
+    }
+    div.mismoAncho1{
+        display: none;
+        margin-right: 0rem;
+    }
+    div.mismoAncho1Telefono{
+        display: flex;
+        margin-top: 2rem;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 32.8125rem;
+        height: 36.25rem;
+    }
+    div.mismoAncho1Telefono section{
+        width: 90%;
+    }
+    div.espacio{
+        display: flex;
+        margin-left: 0rem;
+        background-color:#FFF0EC;
+        height: 2.25rem;
+        align-items: center;
+        border-top-left-radius: 2.5rem 2.5rem;
+        border-bottom-left-radius: 2.5rem 2.5rem;
+    }
+    div.espacio h3{
+        margin-left: 1rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        font-size: .9rem;
+        color: #232C50;
+    }
+    p.parrafoMismo{
+        font-size: .8rem;
+        line-height: 1.5rem;
+    }
+    p.num{
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    }
+    /*--------------*/
+    /*Tercera seccion*/
+    section.padre3{
+        margin-top: 1rem;
+    }
+    section.padre3 h2{
+        font-size: 1.7rem;
+        margin-bottom: 4rem;
+    }
+    div.cajas article.anisha, div.cajas article.richard{
+        display: none;
+    }
+    div.cajas article{
+        width: 21rem;
+    }
+    div.cajas{
+        flex-wrap: wrap;
+    }
+    div.cajas article img{
+        position: absolute;
+        width: 4rem;
+        top: -2rem;
+        left: 41%;
+    }
+    p.textoChico{
+        margin-bottom: 2rem;
+        width: 19rem;
+        text-align: center;
+        font-size: .9rem;
+        line-height: 1.5rem;
+    }
+    section.padre3 ul{
+        display: flex;
+        flex-direction: row;
+        padding: 0rem;
+    }
+    section.padre3 ul li{
+        margin: .25rem;
+    }
+    section.padre3 button{
+        margin-top: 0rem;
+    }
+    section.padre3 ul li button{
+        height: 1rem;
+        border-radius: 100%;
+        border-color: #F3603B;
+        background-color: #FFFFFF;
+    }
+    section.padre3 button:hover{
+        background-color: #F3603B;
+    }
+    /*--------------*/
+    /*Footer*/
+    /*Fondo naranja del footer*/
+    footer{
+        margin-top: 2rem;
+    }
+    div.fondoOrenge{
+        background-image: url(img/bg-simplify-section-mobile.svg);
+        flex-direction: column;
+        justify-content: center;
+        height: 20rem;
+        background-position-x: 0%;
+        background-position-y: 56%;
+        background-size: 24%;
+    }
+    div.fondoOrenge h2{
+        font-size: 2.2rem;
+        width: 18.75rem;
+        margin: 0rem;
+        text-align: center;
+    }
+    div.fondoOrenge div{
+        background-image: none;
+        height: auto;
+        width: auto;
+    }
+    button.fondoBlanco{
+        margin-top: 1rem;
+        margin-right: 0rem;
+    }
+    div.fondoBlack{
+        display: none;
+    }
+    /*--------*/
+    /*Fondo negro del footer*/
+    div.fondoBlackTelefono{
+        background-color: #1E1E26;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    div.fondoBlackTelefono a:hover{
+        color: rgba(210, 89, 23, 0.7);
+    }
+    /*Primera caja*/
+    div.hijo1{
+        height: 100%;
+    }
+    /*--------------*/
+    /*Segunda caja*/
+    div.hijo2{
+        display: flex;
+        flex-direction: row;
+    }
+    div.lista2{
+        height: 100%;
+    }
+    /*--------------*/
+    /*Tercera caja*/
+    div.hijo3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    div.hijo3 img{
+        margin-top: 2rem;
+    }
+    div.hijo3 ul{
+        display: flex;
+        flex-direction: row;
+        padding: 0rem;
+    }
+    div.hijo3 ul li{
+        font-size: 2rem;
+        margin: 1rem;
+    }
+    div.hijo3 ul li a{
+        color: #FFFFFF;
+    }
+    div.hijo3 a:hover{
+        color: rgb(210, 89, 23);
+    }
+    /*--------------*/
+    p.gris{
+        color: #8C8C94;
+        margin-top: 3.5rem;
+        text-align: end;
+        font-size: .7rem;
+    }
+    /*--------------*/
+    /*--------------*//*Fondo negro del footer*/
+}
